@@ -1025,7 +1025,7 @@ img{
 	color: var(--white-color);
 	font-size: var(--font-16);
 	text-transform: uppercase;
-	background-color:var(--color-nine);
+	background-color:var(--main-color);
 	font-family: var(--aelpa-kumbh-font);
 }
 
@@ -1047,7 +1047,7 @@ img{
 	transform: translateX(-50%);
 	border-radius: 50%;
 	z-index: 1;
-	background: var(--main-color);
+	background: var(--white-color);
 }
 
 .btn-style-two i{
@@ -1059,7 +1059,7 @@ img{
 }
 
 .btn-style-two:hover{
-	color:var(--white-color);
+	color:var(--main-color);
 }
 
 .btn-style-two:hover:before{

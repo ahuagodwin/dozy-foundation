@@ -254,15 +254,6 @@
 	margin-right:var(--margin-right-50);
 }
 
-.main-footer .footer-bottom .social-box:before{
-	position: absolute;
-	content:'';
-	left:-15px;
-	top:-80px;
-	width:213px;
-	height:126px;
-	background:url(../images/background/pattern-34.png) no-repeat;
-}
 
 .main-footer .footer-bottom .social-box li{
 	position: relative;
