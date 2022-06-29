@@ -10787,7 +10787,7 @@
 
 
 .maintenance-mode {
-	display: flex;
+	/* display: flex;
 	width:100%;
 	height:100vh;
 	font-size: 50px;
@@ -10797,5 +10797,5 @@
 	background-repeat:no-repeat;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	text-align: center; */
 }

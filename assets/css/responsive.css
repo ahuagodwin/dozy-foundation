@@ -120,6 +120,14 @@
 	.report-section .image-column .inner-column{
 		margin-right:var(--margin-zero);
 	}
+
+	.main-header .main-menu .navigation > li:last-child {
+		display:inline-block;
+	}
+
+	.header-style-two .main-menu .navigation > li > a{
+		color:var(--black-color);
+	}
 	
 }
 
@@ -212,8 +220,8 @@
 		font-size:var(--font-18);
 	}
 	
-	.header-style-two{
-		background-color:var(--black-color);
+	.header-style-two {
+		background: transparent;
 	}
 	
 	.main-slider-three .slide{
@@ -939,7 +947,7 @@
 	}
 	
 	.header-style-two .nav-outer .mobile-nav-toggler{
-		color:var(--white-color);
+		color:var(--black-color);
 	}
 	
 	.testimonial-section-three .title-column .text{
