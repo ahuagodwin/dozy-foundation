@@ -626,7 +626,7 @@
 	background-size:20px;
 	cursor:pointer;
 	z-index:5;
-	display:none;
+	display: none;
 }
 
 .header-style-two{

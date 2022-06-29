@@ -9,6 +9,10 @@
 	.header-style-three .main-menu{
 		margin-left:var(--margin-left-60);
 	}
+
+	.main-header .main-menu .navigation > li:last-child {
+		display: none;
+	}
 	
 }
 
@@ -149,7 +153,7 @@
 	
 	.comment-one__text br,
 	.main-header .outer-box{
-		display:none;
+		display: none;
 	}
 	
 	.main-slider h1{
@@ -385,6 +389,10 @@
 		display:block !important;
 		visibility:hidden;
 		opacity:0;
+	}
+
+	.contact-nav {
+		display: block;
 	}
 	
 }
