@@ -10799,3 +10799,21 @@
 	align-items: center;
 	text-align: center; */
 }
+
+
+
+/* READ MORE LINK */
+.read-more-btn {
+	background-color: #414141;
+	padding: 5px 14px;
+	color: #fff;
+}
+
+.read-more-btn:hover {
+	background-color: #D70D0D ;
+	color: #fff;
+}
+
+
+/* #D70D0D;
+414141 */
