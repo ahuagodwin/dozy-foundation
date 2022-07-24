@@ -10841,3 +10841,8 @@
 	border: 14px solid #fff !important;
 
 }
+
+.approach-goal li {
+	text-decoration: dotted !important;
+	color: #000000;
+}
