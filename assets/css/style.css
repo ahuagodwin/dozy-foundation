@@ -10813,3 +10813,31 @@
 	background-color: #D70D0D ;
 	color: #fff;
 }
+
+/* banner image */
+.page-title {
+	background-image: url("../images/banner/dmf-banner3.JPG");
+	background-position: center center !important;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding: 140px 0px 100px 0px;
+}
+
+.join {
+	font-size: 45px;
+}
+
+.pattern-layer {
+	position: absolute !important;
+    left: -170px !important;
+    top: 0px !important;
+    width: 592px !important;
+    height: 550px !important;
+    background-repeat: no-repeat !important;
+	background-image: url("../images/banner/dmf-banner2.JPG") !important;
+	background-position: center !important;
+	background-size: cover !important;
+	border-radius: 50% !important;
+	border: 14px solid #fff !important;
+
+}
