@@ -10829,20 +10829,19 @@
 	font-size: 45px;
 }
 
-.pattern-layer {
+/* .pattern-layer {
 	position: absolute !important;
     left: -170px !important;
     top: 0px !important;
     width: 592px !important;
     height: 550px !important;
     background-repeat: no-repeat !important;
-	background-image: url("../images/banner/dmf-banner2.JPG") !important;
 	background-position: center !important;
 	background-size: cover !important;
 	border-radius: 50% !important;
 	border: 14px solid #fff !important;
 
-}
+} */
 
 .approach-goal li {
 	text-decoration: dotted !important;

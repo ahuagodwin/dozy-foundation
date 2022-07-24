@@ -25,8 +25,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
 </head>
 
 <body class="hidden-bar-wrapper">
@@ -109,7 +108,7 @@
 							
 							<!-- Button Box -->
 							<div class="button-box">
-								<a href="contact.html" class="theme-btn btn-style-one"><span class="txt">Contact Us</span></a>
+								<a href="mailto:apply@dozymmobuosifoundation.com" class="theme-btn btn-style-one"><span class="txt">Apply</span></a>
 							</div>
 							<!-- End Button Box -->
 							
@@ -175,7 +174,7 @@
 			<div class="row clearfix">
 				<div class="col-lg-5 col-md-12 col-sm-12">
 					<h2 class="contact-one__title">Get in touch with us</h2>
-					<div class="contact-one__text">Our goal is to engage young people with follow-up programs that will contribute to their development, consistent growth and improvements.</div>
+					<div class="contact-one__text">For general inquiries, please contact us via email or phone number</div>
 					<ul class="contact-one__info">
 						<li>
 							<span class="icon flaticon-map"></span>
@@ -199,22 +198,22 @@
 						<!-- Contact Form -->
 						<div class="contact-form">
 							<!-- Contact Form -->
-							<form method="post" action="sendemail.php" id="contact-form">
+							<form action="#" id="contact-form" class="php-email-form">
 								<div class="row clearfix">
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="name" placeholder="Full Name">
+										<input type="text" name="name" id="name" placeholder="Full Name">
 									</div>
 									
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="email" name="email" placeholder="Email Address">
+										<input type="email" name="email" id="email" placeholder="Email Address">
 									</div>
 									
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="phone" placeholder="Phone Number">
+										<input type="text" name="phone" id="phone" placeholder="Phone Number">
 									</div>
 									
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="subject" placeholder="Subject">
+										<input type="text" name="subject" id="subject" placeholder="Subject">
 									</div>
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
 										<select id="country" name="country">
@@ -231,8 +230,9 @@
 										<textarea name="message" placeholder="Your Message Here" rows="1" cols="1"></textarea>
 									</div>
 									
-									<div class="form-group">
+									<div class="button-area span form-group">
 										<button type="submit" class="theme-btn btn-style-seven"><span class="txt">Submit Message</span></button>
+										<span></span>
 									</div>
 								</div>
 							</form>
