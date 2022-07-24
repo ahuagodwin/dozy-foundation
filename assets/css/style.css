@@ -10846,3 +10846,7 @@
 	text-decoration: dotted !important;
 	color: #000000;
 }
+
+.contact-form .form-group textarea {
+	height: 100px !important;
+}
