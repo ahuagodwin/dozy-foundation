@@ -7187,7 +7187,7 @@
 
 ***/
 
-.page-title{
+/* .page-title{
 	position:relative;
 	overflow:hidden;
 	text-align:center;
@@ -7195,7 +7195,7 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-}
+} */
 
 .page-title:before{
 	position:absolute;
@@ -10816,11 +10816,13 @@
 
 /* banner image */
 .page-title {
-	background-image: url("../images/banner/dmf-banner3.JPG");
+	position:relative !important;
+	overflow:hidden !important;
+	text-align:center !important;
 	background-position: center center !important;
-	background-repeat: no-repeat;
-	background-size:cover;
-	padding: 140px 0px 100px 0px;
+	background-repeat: no-repeat !important;
+	background-size:cover !important;
+	/* padding: 140px 0px 100px 0px !important; */
 }
 
 .join {
